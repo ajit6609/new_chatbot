@@ -1,0 +1,54 @@
+{
+  "res": [
+    {
+      "user_msg": "hii",
+      "reply": "Hello Ajit!!!",
+      "metadata": {
+        "intent": "greeting",
+        "entities": []
+      }
+    },
+    {
+      "user_msg": "how are you?",
+      "reply": "I am good , How are you?",
+      "metadata": {
+        "intent": "greeting",
+        "entities": []
+      }
+    },
+    {
+      "user_msg": "React",
+      "reply": "React is a JS library!!",
+      "metadata": {
+        "intent": "order-pizza",
+        "entities": [
+          {
+            "value": "react",
+
+            "type": "js library"
+          }
+        ]
+      }
+    },
+    {
+      "user_msg": "I want to order large italian pizza",
+      "reply": "Your large italian pizza has been ordered. Thanks!",
+      "metadata": {
+        "intent": "order-pizza",
+        "entities": [
+          {
+            "value": "italian",
+
+            "type": "pizza-type"
+          },
+
+          {
+            "value": "large",
+
+            "type": "pizza-size"
+          }
+        ]
+      }
+    }
+  ]
+}

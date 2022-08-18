@@ -1,0 +1,69 @@
+.messages {
+  padding: 2% 5%;
+}
+
+.messages__user {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3%;
+}
+
+.messages__bot {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3%;
+}
+
+.messages__text-user {
+  padding: 1rem 1rem;
+  background-color: rgb(159, 76, 236);
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.messages__text-bot {
+  padding: 1rem 1rem;
+  background-color: rgb(187, 173, 200);
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  margin: 0;
+  line-height: 2;
+}
+
+.rpltext {
+  background-color: #96a2ae;
+  /* color: rgb(187, 173, 200); */
+  border-radius: 10%;
+  padding: 1.5%;
+  margin: 1%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.entitytype {
+  background-color: blueviolet;
+  font-size: 70%;
+  margin: 2.5%;
+  padding: 1.5%;
+  color: white;
+  border-radius: 0.8rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  box-shadow: 0 1px 3px rgba(167, 5, 255, 0.12),
+    0 1px 2px rgba(153, 16, 227, 0.24);
+}
+
+.entityButton {
+  font-size: 70%;
+  margin: 2%;
+  border-radius: 0.8rem;
+  border-color: rebeccapurple;
+  background-color: #96a2ae;
+  z-index: 10;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-weight: bold;
+}

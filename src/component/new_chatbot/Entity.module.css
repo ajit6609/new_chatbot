@@ -1,0 +1,32 @@
+.entityCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+  height: 95%;
+  overflow-y: scroll;
+}
+
+.entityCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.entity {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: cursive;
+  background-color: #e9dac1;
+  margin-bottom: 2%;
+}
+.entity:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.entityValue {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-flex;
+  padding: 1%;
+  margin: 0 3%;
+}
+.entityType {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-flex;
+  padding: 1%;
+}

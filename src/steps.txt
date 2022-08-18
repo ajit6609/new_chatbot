@@ -1,0 +1,17 @@
+str=Your large italian pizza has been ordered. Thanks!
+entity_text=italian
+
+1.Find the italian word inside the sudo text.
+  expectation:- getting the starting and ending index of the particular entity.
+  variables:- entity_start_index, entity_end_index
+
+2.Get the part of string from starting to ending index.
+  expectation
+  variable:-substring1-should have the value start index 0 & end index is entity_start_index 
+            substring2 -start index will be entity_start_index end index+1 & entity_end_index will be the last index of the particular string.
+
+3. Final string creation
+   variable :-  final_string= substring1+entity_text+substring2
+
+4. Css final string
+   css_final_string=substring1+span(entity,backgroundColor=red)+substring2

@@ -1,0 +1,63 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 50rem;
+  min-height: 20rem;
+  margin: auto;
+  text-align: center;
+  background-color: #f7f5f2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.head {
+  background-color: #e8f9fd;
+  min-height: 3rem;
+}
+
+.title {
+  color: #7d9d9c;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.main {
+  overflow: auto;
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  float: left;
+  margin-top: 3%;
+  width: 60%;
+}
+.inputArea {
+  margin: auto;
+  outline-width: 0;
+
+  resize: none;
+  border: 2px solid #ccc;
+}
+.inputButton {
+  width: 80%;
+  margin: 2% 0;
+  padding: 1%;
+  background-color: #eeeeee;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+}
+.inputButton:active {
+  background-color: #efead8;
+  transform: scale(1.01);
+}
+.output {
+  float: right;
+  width: 40%;
+}
+.outputText {
+  color: #b3b9c0;
+  font-weight: 500;
+}
